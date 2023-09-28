@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        h1{
+            color: red;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        /*button{
+            margin:auto;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: antiquewhite;
+            width: fit-content;
+            text-align: center;
+            align-items: center;
+            height: fit-content;
+        }*/
+        h1{
+            color: maroon;
+            margin: auto;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image: url("https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2QlMjBiYWNrZ3JvdW5kJTIwaGR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .category {
+            margin-top: 20px;
+        }
+
+        .dish {
+            margin-bottom: 10px;
+        }
+
+        .dish-name {
+            font-weight: bold;
+        }
+
+        .dish-description {
+            color: #666;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-link a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+        }
+        nav ul li a{
+            padding: 20px 12px;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><u><i>Restaurant Menu</i></u></h1>
+        <section>
+            <nav>
+            <ul>
+                <li><button><a href="#">Home</a></button></li>
+                <li><button><a href="#">Products</a></button></li>
+                <li><button><a href="#">About Us</a></button></li>
+                <li><button><a href="#">Contact Us</a></button></li>
+                <li><button><a href="logout.html">Log Out</a></button></li><!-- Link to your login form page -->
+            </ul>
+        </nav>
+    </section>
+        
+        <div class="category">
+            <h2>Appetizers</h2>
+            <div class="dish">
+               <span class="dish-name">Garlic Bread</span> 
+               <i> <p class="dish-description">Toasted baguette with garlic and butter.</p></i>
+            </div>
+            <div class="dish">
+                <span class="dish-name">Mozzarella Sticks</span>
+               <i> <p class="dish-description">Fried mozzarella cheese sticks served with marinara sauce.</p> </i>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Main Courses</h2>
+            <div class="dish">
+                <span class="dish-name">Spaghetti Carbonara</span>
+               <i> <p class="dish-description">Pasta with eggs, cheese, pancetta, and black pepper.</p></i>
+            </div>
+            <div class="dish">
+                <span class="dish-name">Margherita Pizza</span>
+               <i> <p class="dish-description">Tomato, mozzarella, and basil.</p> </i>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Desserts</h2>
+            <div class="dish">
+                <span class="dish-name">Tiramisu</span>
+              <i>  <p class="dish-description">Coffee-flavored Italian dessert.</p> </i>
+            </div>
+            <div class="dish">
+                <span class="dish-name">Chocolate Cake</span>
+              <i>  <p class="dish-description">Rich chocolate cake with chocolate frosting.</p> </i>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

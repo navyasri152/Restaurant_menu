@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <style>
+        form{
+    flex-direction: column;
+    margin-top:100px ;
+    margin-bottom: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border: 3px solid #090800 ;
+    display: block;
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+        }
+    body{
+        background: linear-gradient(to right,orange,lightblue,lightgreen);
+    }
+    #login{
+        background-color: rgb(177, 21, 107);
+    }
+    </style>
+</head>
+<body>
+
+    <div>
+        <form action="/loginsubmit" method="post">
+            <center>
+         <h1><u>Login Page</u></h1>
+        </center>
+        <center> <label><b>Name:</b></label>
+        <input type="text" name="name" id="name"></center>
+        <br> <br>
+        <center> <label><b>E-mail id:</b></label>
+        <input type="email" name="email"></center>
+        <br> <br>
+        <center> <label><b>Password:</b></label>
+        <input type="password" name="password"></center>
+        <br> <br>
+        <center><input type = "submit" id ="login" value="Log In"></center>
+    </form>
+    </div>
+</body>
